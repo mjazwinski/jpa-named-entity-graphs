@@ -1,0 +1,9 @@
+drop table CRT_CUSTOMER if exists
+drop table CRT_ORDER if exists
+drop table CRT_ORDER_ITEM if exists
+drop table CRT_PHONE if exists
+drop table CRT_PRODUCT if exists
+drop sequence if exists CRT_ORDER_ITEM_SEQ
+drop sequence if exists ORDER_ID_SEQ
+drop sequence if exists PHONE_ID_SEQ
+drop sequence if exists PRODUCT_SEQ
